@@ -25,19 +25,12 @@ line-height: 1.3em;
 	margin-bottom: 0px !important;
 }
 .best_title {
-	font-family: downcome;
 	font-size: 70px;
 	margin-bottom: 50px;
-	text-align: center;
-}
-.i_do h2 {
+	text-align: center;  
 	font-family: downcome;
-	font-size: 60px;
 }
-.i_do h3 {
-	font-family: downcome;
-	font-size: 60px;
-}
+
 .work-type{
 	text-align: center;
 }
