@@ -11,10 +11,10 @@ font-family: acrom_m; /* Имя шрифта */
 src: url(../fonts/Acrom/Acrom-Medium.eot); /* Путь к файлу со шрифтом */
 }
 body {
-	font-family: acrom;
+	font-family: acrom !important;
 }
 h1, h2, h3, h4, h5 {
-	font-family: acrom;
+	font-family: acrom !important;
 }
 .why_wood .best_h h1{
 font-family: downcome;
@@ -219,6 +219,10 @@ max-height: 159.25px;
 .promo {
 	right: -1.57rem;
 }
+.blog h2 { 
+	text-align: center;
+	padding-bottom: 50px;
+}
 .testimonials .test_items{
 	text-align: center;
 	padding-top: 20px;
@@ -233,6 +237,17 @@ max-height: 159.25px;
 	color: orange;
 	display: inline;
 }
+.portfolio h2 {
+	text-align: center;
+}
+.portfolio { 
+	padding-top: 0px;
+}
+.portfolio .row{ 
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
 /************************************************************************************/
 /* Callback 
 /************************************************************************************/
