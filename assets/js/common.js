@@ -16,5 +16,4 @@ $(document).ready(function() {
 		$(this).find("a").attr("href", "#work_" + i);
 		$(this).find(".podrt_descr").attr("id", "work_" + i);
 	});
-
 });

@@ -1,0 +1,29 @@
+{
+	"git.ignoreMissingGitWarning": true,
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.statusBar.feedback.visible": false,
+	"window.menuBarVisibility": "toggle",
+	"workbench.statusBar.visible": false,
+	"workbench.activityBar.visible": true,
+	"editor.minimap.enabled": false,
+	"files.defaultLanguage": "html",
+	"editor.fontSize": 16,
+	"editor.tabSize": 2,
+	"workbench.editor.tabSizing": "shrink",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.folding": false,
+	"editor.glyphMargin": false,
+	"editor.smoothScrolling": true,
+	"emmet.triggerExpansionOnTab": true,
+	"editor.quickSuggestions": {
+			"other": false,
+			"comments": false,
+			"strings": false
+	},
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.parameterHints": false,
+	"editor.hover": false,
+	"terminal.integrated.fontSize": 15,
+	"editor.renderWhitespace": "boundary"
+}

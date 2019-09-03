@@ -219,6 +219,20 @@ max-height: 159.25px;
 .promo {
 	right: -1.57rem;
 }
+.testimonials .test_items{
+	text-align: center;
+	padding-top: 20px;
+}
+.testimonials h2 {
+	text-align: center;
+}
+.testimonials {
+	padding-top: 100px;
+}
+.testimonials .rating li {
+	color: orange;
+	display: inline;
+}
 /************************************************************************************/
 /* Callback 
 /************************************************************************************/
