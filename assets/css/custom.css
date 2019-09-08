@@ -171,6 +171,7 @@ font-size: 15px;
 .we_do .card_ img {
 min-height: 159.25px;
 max-height: 159.25px;
+width: 100%;
 }
 .we_do h2 {
   padding-top: 100px;
@@ -247,7 +248,9 @@ max-height: 159.25px;
 	padding-bottom: 100px;
 	padding-top: 50px;
 }
-
+.map {
+	display: inline-block;
+}
 /************************************************************************************/
 /* Callback 
 /************************************************************************************/
