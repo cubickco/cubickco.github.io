@@ -72,7 +72,7 @@ text-align: center;
 .portfolio_item {
   display: none;
   padding: 0;
-  margin-right: -4px; }
+  margin-right: -5px; }
   .portfolio_item img {
     width: 100%;
     object-fit: cover;
@@ -169,9 +169,10 @@ font-size: 15px;
   text-align: center; 
 }
 .we_do .card_ img {
-min-height: 159.25px;
-max-height: 159.25px;
-width: 100%;
+max-width: 100%;
+height: auto;
+object-fit: cover;
+min-height: 188px;
 }
 .we_do h2 {
   padding-top: 100px;
@@ -289,4 +290,42 @@ width: 100%;
 30%, 50%, 70%, 90% {transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, 3deg);}
 40%, 60%, 80% {transform: scale3d(1.05, 1.05, 1.05) rotate3d(0, 0, 1, -3deg);}
 100% {transform: scale3d(1, 1, 1);}
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px)
+{
+
+}
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+	.we_do .card_ img {
+		min-height: 218px;
+	}
+}
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.we_do .card_ img {
+		min-height: 237px;
+	}
+}
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.we_do .card_ img {
+		min-height: 237px;
+	}
+}
+/*lg*/
+@media (min-width: 1200px) and (max-width: 1600px)
+{
+
+}
+
+@media (min-width: 1601px) 
+{
+
 }
