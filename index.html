@@ -14,7 +14,7 @@
 	<title>Главная</title>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121642637-4"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121642637-4"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -23,7 +23,7 @@
 		}
 		gtag('js', new Date());
 		gtag('config', 'UA-121642637-4');
-	</script>
+	</script> -->
 </head>
 
 <body>
@@ -422,6 +422,8 @@
 				</div>
 			</div>
 		</section>
+
+
 		<section>
 			<div class="container">
 				<div class="row gutter-4">
@@ -430,31 +432,37 @@
 						<p>Ми вiдповiдаємо кожному!</p>
 					</div>
 					<div class="col-lg-8 pl-lg-5 wow animated zoomIn">
-						<div class="row gutter-2">
+
+
+<form role="form" id="contactForm">
+							<div class="row gutter-2">
 							<div class="form-group col-md-6">
 								<label for="inputName">Iм'я*</label>
-								<input type="text" class="form-control" id="inputName" placeholder="">
+								<input type="text" class="form-control" id="name" placeholder="" required>
 							</div>
 							<div class="form-group col-md-6">
 								<label for="inputEmail">Email</label>
-								<input type="email" class="form-control" id="inputEmail" placeholder="">
+								<input type="email" class="form-control" id="email" placeholder="">
 							</div>
 							<div class="form-group col-12">
 								<label for="inputNameSecond">Номер телефону*</label>
-								<input type="text" class="form-control" id="inputNameSecond" placeholder="">
+								<input type="tel" class="form-control" id="phone" placeholder="" required>
 							</div>
 							<div class="form-group col-12">
 								<label for="inputTextarea">Повiдомлення</label>
-								<textarea class="form-control" id="inputTextarea" rows="3"></textarea>
+								<textarea class="form-control" id="message" rows="3"></textarea>
 							</div>
 							<div class="col-12">
-								<a href="#!" class="btn btn-primary mt-2">Надiслати повiдомлення</a>
+								<div type="submit" id="form-submit" class="btn btn-primary mt-2">Надiслати повiдомлення</div>
 							</div>
 						</div>
+</form>
 					</div>
 				</div>
 			</div>
 		</section>
+
+
 	<!-- footer -->
 	<footer class="bg-dark text-white py-0">
 		<div class="container">
@@ -523,9 +531,9 @@
 					<p>Здрастуйте! Хочете ми перезвонимо Вам протягом 15 хвилин i вiдповiмо на всi вашi запитання?</p>
 
 					<div class="input-group">
-						<input type="tel" class="form-control form-control-lg" placeholder="номер телефону" aria-label="tel">
+						<input type="tel" class="form-control form-control-lg" placeholder="номер телефону" id="phone_m" aria-label="tel">
 						<div class="input-group-append">
-							<button type="button" class="btn btn-lg btn-primary">Чекаю дзвiнок</button>
+							<button type="submit" id="form-submit_m" class="btn btn-lg btn-primary">Чекаю дзвiнок</button>
 						</div>
 					</div>
 				</div>
@@ -535,10 +543,12 @@
 	<!-- End Callback -->
 	<script src="assets/js/vendor.min.js"></script>
 	<script src="assets/js/app.js"></script>
-	<script src="assets/js/common.js"></script>
+
 	<script src="assets/js/fancybox-master/dist/jquery.fancybox.min.js"></script>
 	<script src="assets/js/parallax.js-1.5.0/parallax.min.js"></script>
 	<script src="assets/js/WOW-master/dist/wow.min.js"></script>
+
+	<script src="assets/js/common.js"></script>
 	<script>
 		new WOW().init();
 		</script>
@@ -555,6 +565,7 @@
 			x.parentNode.insertBefore(s, x);
 		})('https://widget.replain.cc/dist/client.js');
 	</script>
+
 </body>
 
 </html>
