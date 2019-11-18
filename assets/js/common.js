@@ -1,27 +1,21 @@
 $(document).ready(function() {
-	//$("#portfolio_grid").mixItUp();
+	$("#portfolio_grid").mixItUp();
 
-	// $(".s_portfolio li").click(function() {
-	// 	$(".s_portfolio li").removeClass("active");
-	// 	$(this).addClass("active");
-	// });
+	$(".s_portfolio li").click(function() {
+		$(".s_portfolio li").removeClass("active");
+		$(this).addClass("active");
+	});
 
-	// $(".popup").magnificPopup({type:"image"});
-	// $(".popup_content").magnificPopup({
-	// 	type:"inline",
-	// 	midClick: true
-	// });
+	$(".popup").magnificPopup({type:"image"});
+	$(".popup_content").magnificPopup({
+		type:"inline",
+		midClick: true
+	});
 
-	// $(".portfolio_item").each(function(i) {
-	// 	$(this).find("a").attr("href", "#work_" + i);
-	// 	$(this).find(".podrt_descr").attr("id", "work_" + i);
-	// });
-
-// 	$("#form-submit").click(function(){
-// 		// cancels the form submission
-// 		console.log('sdsdss');
-//     alert("Submit prevented");
-// });
+	$(".portfolio_item").each(function(i) {
+		$(this).find("a").attr("href", "#work_" + i);
+		$(this).find(".podrt_descr").attr("id", "work_" + i);
+	});
 
 var mainForm = document.querySelector('#form-submit')
 var callback = document.querySelector('#form-submit_m')
@@ -71,5 +65,9 @@ function submitForm(){
 function formSuccess(){
 	alert('Повідомлення відправлено успішно!')
 	}
+
+
+
+
 });
 
